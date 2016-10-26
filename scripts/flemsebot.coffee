@@ -5,5 +5,8 @@ module.exports = (robot) ->
   robot.hear /React/i, (res) ->
     res.send "React! Ember! Ember! .. eller React! React er det nye!"
 
-  robot.hear /Microservices/i, (res) ->
+  robot.hear /Microservice/i, (res) ->
     res.send "Microservices? Hvis du kan putte dem ind i Rails, så er det fint med mig :joy:"
+    
+  robot.hear /coffeescript/i, (res) ->
+    res.send "Who the f**k is using coffeescript now a days......"
